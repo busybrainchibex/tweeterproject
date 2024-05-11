@@ -1,0 +1,46 @@
+.slidebar-icon{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+::-webkit-scrollbar{
+    background-color: #b9cad3;
+}
+
+.slidebar-icon div:hover{
+
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagebox img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.messagebox textarea {
+    border: none;
+    resize: none
+}
+
+.message textarea:focus{
+   outline: none 
+}
+
+textarea::placeholder{
+    color: gray;
+    font-family:cursive
+}
+
+.posting{
+    height: 4rem;
+    width: 4rem;
+    border-radius:50%
+}
